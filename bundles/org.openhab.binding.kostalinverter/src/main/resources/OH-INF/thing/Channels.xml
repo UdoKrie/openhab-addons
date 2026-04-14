@@ -1338,4 +1338,136 @@
 		<category>Energy</category>
 		<state readOnly="false"/>
 	</channel-type>
+	<channel-type id="statistic-energy-pv1-day">
+		<item-type>Number:Energy</item-type>
+		<label>PV1 yield Day</label>
+		<description>Yield of the photovoltaic string PV1 today</description>
+		<category>Energy</category>
+		<tags>
+			<tag>Measurement</tag>
+			<tag>Energy</tag>
+		</tags>
+		<state readOnly="true" pattern="%.2f %unit%"/>
+	</channel-type>
+	<channel-type id="statistic-energy-pv1-month">
+		<item-type>Number:Energy</item-type>
+		<label>PV1 yield Month</label>
+		<description>Yield of the photovoltaic string PV1 this month</description>
+		<category>Energy</category>
+		<tags>
+			<tag>Measurement</tag>
+			<tag>Energy</tag>
+		</tags>
+		<state readOnly="true" pattern="%.2f %unit%"/>
+	</channel-type>
+	<channel-type id="statistic-energy-pv1-total">
+		<item-type>Number:Energy</item-type>
+		<label>PV1 yield Total</label>
+		<description>Yield of the photovoltaic string PV1 overall</description>
+		<category>Energy</category>
+		<tags>
+			<tag>Measurement</tag>
+			<tag>Energy</tag>
+		</tags>
+		<state readOnly="true" pattern="%.2f %unit%"/>
+	</channel-type>
+	<channel-type id="statistic-energy-pv1-year">
+		<item-type>Number:Energy</item-type>
+		<label>PV1 yield Year</label>
+		<description>Yield of the photovoltaic string PV1 this year</description>
+		<category>Energy</category>
+		<tags>
+			<tag>Measurement</tag>
+			<tag>Energy</tag>
+		</tags>
+		<state readOnly="true" pattern="%.2f %unit%"/>
+	</channel-type>
+	<channel-type id="statistic-energy-pv2-day">
+		<item-type>Number:Energy</item-type>
+		<label>PV2 yield Day</label>
+		<description>Yield of the photovoltaic string PV2 today</description>
+		<category>Energy</category>
+		<tags>
+			<tag>Measurement</tag>
+			<tag>Energy</tag>
+		</tags>
+		<state readOnly="true" pattern="%.2f %unit%"/>
+	</channel-type>
+	<channel-type id="statistic-energy-pv2-month">
+		<item-type>Number:Energy</item-type>
+		<label>PV2 yield Month</label>
+		<description>Yield of the photovoltaic string PV2 this month</description>
+		<category>Energy</category>
+		<tags>
+			<tag>Measurement</tag>
+			<tag>Energy</tag>
+		</tags>
+		<state readOnly="true" pattern="%.2f %unit%"/>
+	</channel-type>
+	<channel-type id="statistic-energy-pv2-total">
+		<item-type>Number:Energy</item-type>
+		<label>PV2 yield Total</label>
+		<description>Yield of the photovoltaic string PV2 overall</description>
+		<category>Energy</category>
+		<tags>
+			<tag>Measurement</tag>
+			<tag>Energy</tag>
+		</tags>
+		<state readOnly="true" pattern="%.2f %unit%"/>
+	</channel-type>
+	<channel-type id="statistic-energy-pv2-year">
+		<item-type>Number:Energy</item-type>
+		<label>PV2 yield Year</label>
+		<description>Yield of the photovoltaic string PV2 this year</description>
+		<category>Energy</category>
+		<tags>
+			<tag>Measurement</tag>
+			<tag>Energy</tag>
+		</tags>
+		<state readOnly="true" pattern="%.2f %unit%"/>
+	</channel-type>
+	<channel-type id="statistic-energy-pv3-day">
+		<item-type>Number:Energy</item-type>
+		<label>PV3 yield Day</label>
+		<description>Yield of the photovoltaic string PV3 today</description>
+		<category>Energy</category>
+		<tags>
+			<tag>Measurement</tag>
+			<tag>Energy</tag>
+		</tags>
+		<state readOnly="true" pattern="%.2f %unit%"/>
+	</channel-type>
+	<channel-type id="statistic-energy-pv3-month">
+		<item-type>Number:Energy</item-type>
+		<label>PV3 yield Month</label>
+		<description>Yield of the photovoltaic string PV3 this month</description>
+		<category>Energy</category>
+		<tags>
+			<tag>Measurement</tag>
+			<tag>Energy</tag>
+		</tags>
+		<state readOnly="true" pattern="%.2f %unit%"/>
+	</channel-type>
+	<channel-type id="statistic-energy-pv3-total">
+		<item-type>Number:Energy</item-type>
+		<label>PV3 yield Total</label>
+		<description>Yield of the photovoltaic string PV3 overall</description>
+		<category>Energy</category>
+		<tags>
+			<tag>Measurement</tag>
+			<tag>Energy</tag>
+		</tags>
+		<state readOnly="true" pattern="%.2f %unit%"/>
+	</channel-type>
+	<channel-type id="statistic-energy-pv3-year">
+		<item-type>Number:Energy</item-type>
+		<label>PV3 yield Year</label>
+		<description>Yield of the photovoltaic string PV3 this year</description>
+		<category>Energy</category>
+		<tags>
+			<tag>Measurement</tag>
+			<tag>Energy</tag>
+		</tags>
+		<state readOnly="true" pattern="%.2f %unit%"/>
+	</channel-type>
 </thing:thing-descriptions>

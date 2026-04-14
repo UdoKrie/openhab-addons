@@ -212,6 +212,31 @@ class ThirdGenerationMappingInverterToChannel {
                 "P", ThirdGenerationChannelDatatypes.WATT);
         addInverterChannel(allInvertersWithThreeStringsList, CHANNEL_DEVICE_LOCAL_PVSTRING_3_VOLTAGE,
                 "devices:local:pv3", "U", ThirdGenerationChannelDatatypes.VOLT);
+
+        addInverterChannel(allInvertersWithThreeStringsList, CHANNEL_STATISTIC_ENERGY_PV1_DAY,
+                "scb:statistic:EnergyFlow", "Statistic:EnergyPv1:Day", ThirdGenerationChannelDatatypes.KILOWATT_HOUR);
+        addInverterChannel(allInvertersWithThreeStringsList, CHANNEL_STATISTIC_ENERGY_PV1_MONTH,
+                "scb:statistic:EnergyFlow", "Statistic:EnergyPv1:Month", ThirdGenerationChannelDatatypes.KILOWATT_HOUR);
+        addInverterChannel(allInvertersWithThreeStringsList, CHANNEL_STATISTIC_ENERGY_PV1_TOTAL,
+                "scb:statistic:EnergyFlow", "Statistic:EnergyPv1:Total", ThirdGenerationChannelDatatypes.KILOWATT_HOUR);
+        addInverterChannel(allInvertersWithThreeStringsList, CHANNEL_STATISTIC_ENERGY_PV1_YEAR,
+                "scb:statistic:EnergyFlow", "Statistic:EnergyPv1:Year", ThirdGenerationChannelDatatypes.KILOWATT_HOUR);
+        addInverterChannel(allInvertersWithThreeStringsList, CHANNEL_STATISTIC_ENERGY_PV2_DAY,
+                "scb:statistic:EnergyFlow", "Statistic:EnergyPv2:Day", ThirdGenerationChannelDatatypes.KILOWATT_HOUR);
+        addInverterChannel(allInvertersWithThreeStringsList, CHANNEL_STATISTIC_ENERGY_PV2_MONTH,
+                "scb:statistic:EnergyFlow", "Statistic:EnergyPv2:Month", ThirdGenerationChannelDatatypes.KILOWATT_HOUR);
+        addInverterChannel(allInvertersWithThreeStringsList, CHANNEL_STATISTIC_ENERGY_PV2_TOTAL,
+                "scb:statistic:EnergyFlow", "Statistic:EnergyPv2:Total", ThirdGenerationChannelDatatypes.KILOWATT_HOUR);
+        addInverterChannel(allInvertersWithThreeStringsList, CHANNEL_STATISTIC_ENERGY_PV2_YEAR,
+                "scb:statistic:EnergyFlow", "Statistic:EnergyPv2:Year", ThirdGenerationChannelDatatypes.KILOWATT_HOUR);
+        addInverterChannel(allInvertersWithThreeStringsList, CHANNEL_STATISTIC_ENERGY_PV3_DAY,
+                "scb:statistic:EnergyFlow", "Statistic:EnergyPv3:Day", ThirdGenerationChannelDatatypes.KILOWATT_HOUR);
+        addInverterChannel(allInvertersWithThreeStringsList, CHANNEL_STATISTIC_ENERGY_PV3_MONTH,
+                "scb:statistic:EnergyFlow", "Statistic:EnergyPv3:Month", ThirdGenerationChannelDatatypes.KILOWATT_HOUR);
+        addInverterChannel(allInvertersWithThreeStringsList, CHANNEL_STATISTIC_ENERGY_PV3_TOTAL,
+                "scb:statistic:EnergyFlow", "Statistic:EnergyPv3:Total", ThirdGenerationChannelDatatypes.KILOWATT_HOUR);
+        addInverterChannel(allInvertersWithThreeStringsList, CHANNEL_STATISTIC_ENERGY_PV3_YEAR,
+                "scb:statistic:EnergyFlow", "Statistic:EnergyPv3:Year", ThirdGenerationChannelDatatypes.KILOWATT_HOUR);
     }
 
     static Map<String, List<ThirdGenerationChannelMappingToWebApi>> getModuleToChannelsMappingForInverter(

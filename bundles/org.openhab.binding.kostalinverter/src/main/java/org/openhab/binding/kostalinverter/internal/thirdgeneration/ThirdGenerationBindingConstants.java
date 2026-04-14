@@ -143,4 +143,16 @@ public class ThirdGenerationBindingConstants {
     public static final String CHANNEL_STATISTIC_YIELD_MONTH = "statisticYieldMonth";
     public static final String CHANNEL_STATISTIC_YIELD_TOTAL = "statisticYieldTotal";
     public static final String CHANNEL_STATISTIC_YIELD_YEAR = "statisticYieldYear";
+    public static final String CHANNEL_STATISTIC_ENERGY_PV1_DAY = "statisticEnergyPv1Day";
+    public static final String CHANNEL_STATISTIC_ENERGY_PV1_MONTH = "statisticEnergyPv1Month";
+    public static final String CHANNEL_STATISTIC_ENERGY_PV1_TOTAL = "statisticEnergyPv1Total";
+    public static final String CHANNEL_STATISTIC_ENERGY_PV1_YEAR = "statisticEnergyPv1Year";
+    public static final String CHANNEL_STATISTIC_ENERGY_PV2_DAY = "statisticEnergyPv2Day";
+    public static final String CHANNEL_STATISTIC_ENERGY_PV2_MONTH = "statisticEnergyPv2Month";
+    public static final String CHANNEL_STATISTIC_ENERGY_PV2_TOTAL = "statisticEnergyPv2Total";
+    public static final String CHANNEL_STATISTIC_ENERGY_PV2_YEAR = "statisticEnergyPv2Year";
+    public static final String CHANNEL_STATISTIC_ENERGY_PV3_DAY = "statisticEnergyPv3Day";
+    public static final String CHANNEL_STATISTIC_ENERGY_PV3_MONTH = "statisticEnergyPv3Month";
+    public static final String CHANNEL_STATISTIC_ENERGY_PV3_TOTAL = "statisticEnergyPv3Total";
+    public static final String CHANNEL_STATISTIC_ENERGY_PV3_YEAR = "statisticEnergyPv3Year";
 }

@@ -66,6 +66,18 @@
 			<channel id="statisticOwnconsumptionRateMonth" typeId="statistic-ownconsumption-rate-month"/>
 			<channel id="statisticOwnconsumptionRateTotal" typeId="statistic-ownconsumption-rate-total"/>
 			<channel id="statisticOwnconsumptionRateYear" typeId="statistic-ownconsumption-rate-year"/>
+			<channel id="statisticEnergyPv1Day" typeId="statistic-energy-pv1-day"/>
+			<channel id="statisticEnergyPv1Month" typeId="statistic-energy-pv1-month"/>
+			<channel id="statisticEnergyPv1Total" typeId="statistic-energy-pv1-total"/>
+			<channel id="statisticEnergyPv1Year" typeId="statistic-energy-pv1-year"/>
+			<channel id="statisticEnergyPv2Day" typeId="statistic-energy-pv2-day"/>
+			<channel id="statisticEnergyPv2Month" typeId="statistic-energy-pv2-month"/>
+			<channel id="statisticEnergyPv2Total" typeId="statistic-energy-pv2-total"/>
+			<channel id="statisticEnergyPv2Year" typeId="statistic-energy-pv2-year"/>
+			<channel id="statisticEnergyPv3Day" typeId="statistic-energy-pv3-day"/>
+			<channel id="statisticEnergyPv3Month" typeId="statistic-energy-pv3-month"/>
+			<channel id="statisticEnergyPv3Total" typeId="statistic-energy-pv3-total"/>
+			<channel id="statisticEnergyPv3Year" typeId="statistic-energy-pv3-year"/>
 			<channel id="statisticYieldDay" typeId="statistic-yield-day"/>
 			<channel id="statisticYieldMonth" typeId="statistic-yield-month"/>
 			<channel id="statisticYieldTotal" typeId="statistic-yield-total"/>
