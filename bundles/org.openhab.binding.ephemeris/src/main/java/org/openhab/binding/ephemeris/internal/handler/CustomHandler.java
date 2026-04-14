@@ -15,7 +15,8 @@ package org.openhab.binding.ephemeris.internal.handler;
 import static org.openhab.binding.ephemeris.internal.EphemerisBindingConstants.*;
 
 import java.io.File;
-import java.io.FileNotFoundException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.util.Optional;
@@ -77,13 +78,14 @@ public class CustomHandler extends JollydayHandler {
 
     @Override
     protected @Nullable String getEvent(ZonedDateTime day) throws EphemerisException {
-        String path = definitionFile.get().getAbsolutePath();
         try {
-            return ephemeris.getBankHolidayName(day, path);
+            URL url = definitionFile.get().toURI().toURL();
+            return ephemeris.getBankHolidayName(day, url);
         } catch (IllegalStateException e) {
             throw new EphemerisException("Incorrect syntax", ThingStatusDetail.NONE);
-        } catch (FileNotFoundException e) {
-            throw new EphemerisException("File is absent: " + path, ThingStatusDetail.CONFIGURATION_ERROR);
+        } catch (MalformedURLException e) {
+            throw new EphemerisException("File is absent: " + definitionFile.get().getAbsolutePath(),
+                    ThingStatusDetail.CONFIGURATION_ERROR);
         }
     }
 }
